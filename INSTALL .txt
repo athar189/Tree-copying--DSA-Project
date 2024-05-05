@@ -1,0 +1,40 @@
+                                              How to use
+
+This project we have created a tree and trying to find parent, child, sibling and address of the given node. There are total of 10 functions which are main, insert node, copy tree, delete node, traverse of original tree, traverse of copy tree, find child, find parent, find sibling, find address. The user has to give a choice to the system in the main function. The choice should be either 1. Insert Node, 2. Copy Tree, 3. Delete Node, 
+4. Traverse of original Tree, 5. Traverse of Copy tree, 6. Find child, 7. Find Parent,8. Find Sibling,
+9. Find Address, 10. Exit. These are given inside the do-while loop.
+
+
+If the user’s choice is 1, then the insert function will be executed. The insert function first asks the root node data then after the root node it ask for next node data and check the next data is greater than or less than to the root node if it is greater than it is stored in right of the root node and it is less than its stored in the left side
+
+
+The choice 2 will execute the copying of tree which clone the existing tree if there is no tree it so that first create the tree then copying it. If there is tree already created it will copy it as new to the which name as copy tree. In next choice you can traverse that copy tree the next thing is that if you are changing the in tree there is no reflection in copying tree once tree is copied. If you want reflection in copying tree then we should copy the tree once again.
+
+
+The choice 3 will execute the deletion of a node. If you choose the choice 3 it will ask that which node you have to delete then the function will search that node we have given and node will be deleted
+
+
+The choice 4 will traverse and display the tree in 3 ways, in-order, pre-order, post-order.
+
+
+The choice 5 will traverse and display the original tree in 3 ways, in-order, pre-order, post-order, the updating in the original tree will not be reflect in the copied tree.
+
+
+When we choose choice 6 it will show the child of the left and right child node. First it asks that which nodes you want to know child then we enter the node then it shows the left and right child node of the node.
+
+
+When we choose choice 7 it will show the parent node. First it ask that which nodes you want to know parent then we enter the node then it shows the parent node of the node.
+
+
+When we choose choice 8 it will show the sibling node. First it ask that which nodes you want to know  the sibling node then we enter the node then it show the sibling node.
+
+
+When we choose 9 it will show the address of the node. First it asks that which nodes you want to know the address then we enter the node then it will sow the address of a specified node in the original tree and also in the copied tree. 
+
+The choice 10 will exit from the Whole program. 
+
+
+ 
+
+
+
